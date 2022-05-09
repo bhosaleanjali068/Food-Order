@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.ijprls.com [NC]
+RewriteRule ^(.*)$ http://ijprls.com/$1 [L,R=301]
